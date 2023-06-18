@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- heaading -->
+    <h1>Stone, Paper and Scissors</h1>
+    <!-- screen  -->
+    <div id="show" >
+        <div class="screen" id="comp">
+
+        </div>
+        <div class="screen" id="usr">
+
+        </div>
+    </div>
+    <div id="menu">
+        <h3>Computer</h3>
+        <h3>User</h3>
+    </div>
+    <!-- options -->
+    <div id="options">
+        
+        <button class="op" onclick="user(1)" >
+            <img src="components/paper.png" alt="">
+        </button>
+        <button class="op" onclick="user(3)">
+            <img src="components/rock.png" alt="">
+        </button>
+        <button class="op"onclick="user(2)" >
+            <img src="components/scissor.png" alt="">
+        </button>
+    </div>
+    <!-- popup  -->
+    <div id="popup">
+        <button id="closebutton" onclick="cls()" >x</button>
+        <h2 id="text">text</h2>
+    </div>
+    <script src="fun.js"></script>
+</body>
+</html>
